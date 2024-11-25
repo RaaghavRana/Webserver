@@ -1,0 +1,381 @@
+/*ref - https: //stackoverflow.com/questions/48646110/how-to-define-a-site-with-max-1200-pixel*/
+.wrapper {
+    margin: 0 auto;
+    padding: 20px 0;
+    background-color: #fcf9ec;
+}
+
+body {
+    font-family: "Ysabeau SC", sans-serif;
+    font-optical-sizing: auto;
+    color: #36454F;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.main-heading {
+    font-family: "Permanent Marker", cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 55px;
+    color: #E57F3D;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    width: 43%;
+    text-align: right;
+}
+
+.second_heading {
+    width: 43%;
+    font-size: 50px;
+    color: #008080;
+    margin-bottom: 80px;
+    text-align: right;
+}
+
+
+
+.third_heading {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 17px;
+
+}
+
+.banner {
+    height: 120px;
+}
+
+/* ref-  https: //www.w3schools.com/css/css3_buttons.asp */
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 13px;
+    border: 2px solid;
+    border-radius: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.btn .material-icons {
+    margin-right: 8px;
+    font-size: 20px;
+}
+
+.submit-btn {
+    background-color: #008080;
+    color: white;
+}
+
+.submit-btn:hover {
+    background-color: #006b6b;
+}
+
+.reset-btn {
+    color: #006b6b;
+
+}
+
+/*ref - https: //www.w3schools.com/howto/howto_css_searchbar.asp*/
+
+element {
+    position: absolute;
+    top: -509%;
+    right: 209px;
+    transform: translateY(-50%);
+}
+
+.search-container input[type="text"] {
+    padding: 6px;
+    font-size: 17px;
+    border: none;
+    border-radius: 4px;
+    width: 200px;
+}
+
+.search-container button {
+    padding: 6px 10px;
+    background-color: #008080;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.search-container button:hover {
+    background-color: #E57F3D;
+}
+
+.full-width {
+    width: 100%;
+    height: 40px;
+    box-sizing: border-box;
+}
+
+/*ref - https: //www.w3schools.com/CSSref/css3_pr_flex-wrap.php*/
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 134px;
+    justify-content: space-around;
+}
+
+.gallery-item {
+    position: relative;
+    width: 250px;
+    text-align: center;
+    border-radius: 10px;
+    /* rounded corners */
+    border: 2px solid #dad1ca;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* ref - https: //www.w3schools.com/css/css_tooltip.asp*/
+.gallery-item .tooltip {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.gallery-item:hover .tooltip {
+    display: block;
+}
+
+.image-link {
+    position: relative;
+    display: block;
+}
+
+.pet-name {
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.main-image {
+    width: 310px;
+    height: 310px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #ddd;
+    margin-top: 20px;
+    float: right;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: #008080;
+    padding: 10px 20px;
+    height: 60px;
+    box-sizing: border-box;
+}
+
+.navbar .logo img {
+    height: 40px;
+}
+
+/*ref - https: //www.w3schools.com/howto/howto_css_searchbar.asp*/
+
+element {
+    position: absolute;
+    top: -509%;
+    right: 209px;
+    transform: translateY(-50%);
+}
+
+.search-container input[type="text"] {
+    padding: 6px;
+    font-size: 17px;
+    border: none;
+    border-radius: 4px;
+    width: 200px;
+}
+
+.search-container button {
+    padding: 6px 10px;
+    background-color: #008080;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.search-container button:hover {
+    background-color: #E57F3D;
+}
+
+.full-width {
+    width: 100%;
+    height: 40px;
+    box-sizing: border-box;
+}
+
+.pet-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+/*ref - https: //www.w3schools.com/css/css3_images.asp*/
+.pet-image img {
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #ddd;
+}
+
+.pet-info {
+    margin-top: 20px;
+}
+
+.pet-info h2 {
+    color: #E57F3D;
+    font-size: 36px;
+    margin: 10px 0;
+}
+
+.pet-meta {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 20px 0;
+}
+
+.meta-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.meta-item p {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.meta-item .material-icons {
+    font-size: 40px;
+    color: #008080;
+    margin-bottom: 5px;
+}
+
+.pet-description {
+    font-size: 16px;
+    color: #36454F;
+    margin-top: 20px;
+    padding: 0 40px;
+}
+
+.pets-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+h1 {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    margin: 20px 0;
+    font-size: 45px;
+}
+
+h2 {
+    text-align: center;
+    margin: 60px 0;
+    font-size: 17px;
+}
+
+p {
+    text-align: center;
+    font-size: 15px;
+}
+
+nav ul {
+    list-style-type: none;
+    background-color: #008080;
+    overflow: hidden;
+    padding: 10px;
+    display: flex;
+    flex-grow: 1;
+    margin: 0;
+}
+
+nav ul li {
+    float: left;
+    margin-right: 0 15px;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 10px 20px;
+}
+
+nav ul li a:hover {
+    background-color: #E57F3D;
+    border-radius: 4px;
+}
+
+/* from assessment 1 */
+
+table {
+    width: 55%;
+    border-collapse: collapse;
+    margin: 40px 0;
+}
+
+th,
+td {
+    border: 1px solid #36454F;
+    padding: 8px;
+    text-align: left;
+}
+
+
+header {
+    position: relative;
+}
+
+/*ref - https: //stackoverflow.com/questions/14058455/footer-does-not-stretch-to-100-width*/
+footer {
+    background-color: #E57F3D;
+    color: #008080;
+    text-align: center;
+    padding: 20px;
+    height: fit-content;
+    max-width: 100%;
+}
