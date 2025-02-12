@@ -50,4 +50,4 @@ $title = "Add a Pet";
 
 <?php
 include 'Includes/footer.inc';
-?>
+?> 
